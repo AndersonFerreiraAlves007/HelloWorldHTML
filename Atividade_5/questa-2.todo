@@ -1,0 +1,3 @@
+☐ Um campo oculto permite que os desenvolvedores incluan dados no formulário que não serão modificados 
+e visíveis para o usuário. Geralmente estes dados são o id do registro relacionado a este formulário, que deverá ser modificado
+no servidor.
