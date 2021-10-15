@@ -1,0 +1,5 @@
+☐ o SVG é um formato de arquivo gráfico vetorial usado para representar figuras e animações. Suas princiapis vantagens
+em relação as imagens normais baseadas em pixels, é que o formato SVG é escalonável, podendo diminuir 
+a escala ou aumenta-la sem ocorrer perda na qualidade. Além disso, o tamanha de um SVG é basicamente bem menor
+que uma imagem raster, é amplamente aceito por navegadores o que torna uma tecnologia com alta disponibilidade na web. Além disso, 
+tanto imagens quanto animações podem ser descritos de forma simples usando XML.
