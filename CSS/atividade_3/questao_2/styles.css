@@ -1,0 +1,27 @@
+.caixa1 {
+   width: 100px;
+   height: 200px;
+   background-color: green;
+   margin: 10px;
+   padding: 30px;
+}
+
+.caixaInterna {
+   background-color: red;
+}
+
+#spanTeste {
+   width: 100px;
+   height: 200px;
+   background-color: orange;
+   margin: 10px;
+   padding: 30px;
+}
+
+#spanInfo {
+   width: 100px;
+   height: 200px;
+   background-color: blue;
+   margin: 10px;
+   padding: 30px;
+}
