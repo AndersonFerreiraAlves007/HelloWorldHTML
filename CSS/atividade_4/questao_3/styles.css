@@ -1,0 +1,21 @@
+#avatar {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-image: url(perfil.jpeg);
+   background-size: cover;
+   background-position-y: -40px;
+   background-position-x: -10px;
+   box-shadow: 10px 10px 20px 20px black, -10px -10px 20px 20px red;
+   border: 3px solid red;
+}
+
+.content {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+h1 {
+   text-align: center;
+}

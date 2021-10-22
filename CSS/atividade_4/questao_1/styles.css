@@ -1,0 +1,43 @@
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.section {
+   width: 200px;
+   height: 200px;
+}
+
+h1, h2 {
+   text-align: center;
+}
+
+h2 {
+   color: white;
+}
+
+#cor-solida {
+   background-color: rgb(4, 206, 4);
+}
+
+#cor-solida-com-transparencia {
+   background-color: rgba(4, 206, 4, 0.3);
+}
+
+#gradiente-de-cores {
+   background-image: linear-gradient(45deg, red, green);
+}
+
+#imagem-unica {
+   background-image: url(https://s2.static.brasilescola.uol.com.br/be/2020/11/2-zebra.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+
+#imagem-repetida {
+   background-image: url(https://s2.static.brasilescola.uol.com.br/be/2020/11/2-zebra.jpg);
+   background-repeat: repeat;
+   background-position: top right;
+   background-size: 50px 50px;
+}
