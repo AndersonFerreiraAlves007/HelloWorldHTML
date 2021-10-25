@@ -1,0 +1,80 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   writing-mode: vertical-rl;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background-image: url(jujutsu.jpg);
+   background-size: 100vw 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+h1 {
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   text-decoration: underline;
+}
+
+main {
+   flex: 1;
+   /* background-color: rgba(50, 145, 50, 0.2); */
+   margin-block-start: 30px;
+   margin-block-end: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+
+section {
+   inline-size: 30%;
+   background-color: rgba(50, 107, 145, 0.2);
+   block-size: 100%;
+   border-radius: 20px; 
+   border: 2px solid red;
+   padding-inline-start: 10px;
+   padding-inline-end: 10px;
+   padding-block-start: 10px;
+   padding-block-end: 10px;
+}
+
+section > h2 {
+   text-align: center;
+   margin-block-start: 10px;
+   margin-block-end: 10px;
+}
+
+section > p {
+   
+}
+
+.container-personagem {
+   display: flex;
+   margin-block-start: 20px;
+   align-items: center;
+}
+
+.container-personagem > div{
+   border-radius: 50%;
+   inline-size: 50px;
+   block-size: 50px;
+   background-color: indigo;
+   border: 2px solid red;
+
+   background-image: url(https://criticalhits.com.br/wp-content/uploads/2021/06/Yuji.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.container-personagem > p{
+   text-align: center;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin-inline-start: 20px;
+}
