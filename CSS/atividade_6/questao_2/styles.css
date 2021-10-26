@@ -1,0 +1,49 @@
+* {
+   /* margin: 0;
+   padding: 0;
+   box-sizing: border-box; */
+}
+
+ul {
+   list-style-type: circle
+}
+
+#link {
+   text-decoration: none;
+}
+
+#link:link {
+   color: chocolate;
+}
+
+#visited {
+   text-decoration: none;
+}
+
+#visited:visited {
+   color: black;
+}
+
+#focus {
+   text-decoration: none;
+}
+
+#focus:focus {
+   color: green;
+}
+
+#hover {
+   text-decoration: none;
+}
+
+#hover:hover {
+   color: greenyellow;
+}
+
+#active {
+   text-decoration: none;
+}
+
+#active:active {
+   color: red;
+}

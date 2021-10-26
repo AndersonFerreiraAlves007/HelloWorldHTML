@@ -1,0 +1,134 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #1b1b1c;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+header {
+   height: 50px;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10px;
+}
+
+nav {
+   width: 300px;
+   /* margin-right: 100px; */
+}
+
+ul {
+   display: flex;
+   font-size: 20px;
+   justify-content: space-between;
+}
+
+li {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   color: brown;
+}
+
+main {
+   margin: 0 5%;
+   background-color: #0f0f0f;
+   flex: 1;
+   padding: 20px;
+}
+
+footer {
+   background-color: black;
+   height: 50px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.headerSection {
+   display: flex;
+   justify-content: space-between;
+}
+
+.tituloSection {
+   padding-left: 10px;
+   border-left: 3px solid red;
+   color: white;
+   font-size: 20px;
+}
+
+button {
+   width: 70px;
+   height: 20px;
+   border-radius: 20px;
+   border: none;
+   background-color: red;
+   color: white;
+}
+
+section {
+   width: 100%;
+}
+
+.containerCards {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.card {
+   height: 250px;
+   width: 200px;
+   background-color: burlywood;
+   border-radius: 20px;
+}
+
+p {
+   text-align: center;
+   margin-top: 5px;
+   color: white;
+   font-weight: bold;
+   font-size: 17px;
+}
+
+#card-digimon {
+   background-image: url(https://t2.tudocdn.net/580394?w=1200&h=900);
+   background-size: cover;
+}
+
+#card-jujutsu-kaisen {
+   background-image: url(https://a-static.mlcdn.com.br/1500x1500/manga-jujutsu-kaisen-batalha-de-feiticeiros-volume-8-panini/ebancas/0ef59b6601ec11ec976e4201ac185013/a39feaca111aa4b7178631adc11d1d4d.jpg);
+   background-size: cover;
+}
+
+#card-dragon-ball {
+   background-image: url(https://upload.wikimedia.org/wikipedia/pt/7/74/Dragon_Ball_Super_Key_visual.jpg);
+   background-size: cover;
+}
+
+#card-pokemon {
+   background-image: url(https://files.passeidireto.com/a1ad5808-ff34-4260-813d-1c326a9ed441/a1ad5808-ff34-4260-813d-1c326a9ed441.jpeg);
+   background-size: cover;
+   background-position-x: -130px;
+}
+
+#card-naruto {
+   background-image: url(https://br.web.img3.acsta.net/c_310_420/pictures/16/04/11/16/56/089875.jpg);
+   background-size: cover;
+}
