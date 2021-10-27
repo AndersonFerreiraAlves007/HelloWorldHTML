@@ -1,0 +1,4 @@
+Questão 1
+
+Em primeiro lugas é preferivel escolher as cores de acordo com a mensagem que vc quer passar
+pois cada cor possui um significado. Evitar combinação de cores de baixo contraste, pois para tornar o site mais acessivel é interessante que essas cores sejam acessiveis para pessoas que possuam algum tipo de deficiencia. Combinações de baixo contraste ocorrem quando as 2 ou mais cores são ambas claras ou escuras por exemplo. Evitar cores neom, que são versões brilantes das cores primarias e secundárias, são cores visualmente desgastantes. Evitar cores vibrantes, são combinação de cores com alta saturação que provoca irritação nos olhos, o que claramente afasta usuarios.

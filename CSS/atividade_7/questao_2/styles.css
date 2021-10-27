@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #d3d1d1;
+   background-image: url(https://st3.depositphotos.com/13324256/17034/i/600/depositphotos_170344426-stock-photo-wooden-background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100vw;
+}
+
+.container {
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+
+.cor {
+   width: 150px;
+   height: 150px;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   padding-bottom: 20px;
+}
+
+h1 {
+   text-align: center;
+}
