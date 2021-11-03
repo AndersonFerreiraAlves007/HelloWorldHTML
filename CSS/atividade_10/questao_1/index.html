@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Aula 10 CSS - Questão 1</title>
+</head>
+<body>
+   <header class="flex-row-space-between" id="section-sobre">
+      <h1>Anderson Ferreira Alves</h1>
+      <nav>
+         <ul class="flex-row">
+            <li>
+               <a href="#section-sobre">Sobre</a>
+            </li>
+            <li>
+               <a href="#section-experiencia">Formação</a>
+            </li>
+            <li>
+               <a href="#section-experiencia">Experiências</a>
+            </li>
+            <li>
+               <a href="#section-habilidades">Habilidades</a>
+            </li>
+            <li>
+               <a href="#section-portfolio">Portfólio</a>
+            </li>
+            <li>
+               <a href="#section-contato">Contato</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <section class="section-sobre flex-row-center" >
+      <div class="card flex-colum">
+         <div class="card-content flex-row ">
+            <div class="card-image"></div>
+            <div class="card-skills centralizar" >
+               <h2>Anderson Ferreira Alves</h2>
+               <h3>Aspirante à desenvolvedor web</h3>
+               <div>
+                  <span class="card-skills-field-header">Telefone:</span>
+                  <span class="card-skills-field-content">(11) 95831-0502</span>
+               </div>
+               <div>
+                  <span class="card-skills-field-header">E-mail:</span>
+                  <span class="card-skills-field-content">andersonamericasul07@gmail.com</span>
+               </div>
+               <div>
+                  <span class="card-skills-field-header">Endereço:</span>
+                  <span class="card-skills-field-content">Rua Vemag, 121, casa 3</span>
+                  <span class="card-skills-field-content">São Paulo, SP. CEP: 0421-7050</span>
+               </div>
+               <div>
+                  <span class="card-skills-field-header">Data de nascimento:</span>
+                  <span class="card-skills-field-content">18 de Dezembro de 1995</span>
+               </div>
+            </div>
+         </div>
+         <footer class="flex-row-center">
+            <a href="https://www.google.com/search?q=digimon&rlz=1C1FCXM_pt-PTBR974BR975&sxsrf=AOaemvJmtQkeHYQUY7AodOg8rkkp8Cr_rA:1635908630340&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwi0gK_GmvvzAhUwqZUCHUuJDBIQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=tN5i4iE48ZQHkM" >
+               <img src="icons/facebook_icon.svg">
+            </a>
+            <a href="https://www.google.com/search?q=digimon&rlz=1C1FCXM_pt-PTBR974BR975&sxsrf=AOaemvJmtQkeHYQUY7AodOg8rkkp8Cr_rA:1635908630340&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwi0gK_GmvvzAhUwqZUCHUuJDBIQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=tN5i4iE48ZQHkM" >
+               <img src="icons/whatsapp_icon.svg">
+            </a>
+            <a href="https://www.google.com/search?q=digimon&rlz=1C1FCXM_pt-PTBR974BR975&sxsrf=AOaemvJmtQkeHYQUY7AodOg8rkkp8Cr_rA:1635908630340&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwi0gK_GmvvzAhUwqZUCHUuJDBIQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=tN5i4iE48ZQHkM" >
+               <img src="icons/github_icon.svg">
+            </a>
+            <a href="https://www.google.com/search?q=digimon&rlz=1C1FCXM_pt-PTBR974BR975&sxsrf=AOaemvJmtQkeHYQUY7AodOg8rkkp8Cr_rA:1635908630340&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwi0gK_GmvvzAhUwqZUCHUuJDBIQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=tN5i4iE48ZQHkM" >
+               <img src="icons/instagram_icon.svg">
+            </a>
+            <a href="https://www.google.com/search?q=digimon&rlz=1C1FCXM_pt-PTBR974BR975&sxsrf=AOaemvJmtQkeHYQUY7AodOg8rkkp8Cr_rA:1635908630340&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwi0gK_GmvvzAhUwqZUCHUuJDBIQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=tN5i4iE48ZQHkM" >
+               <img src="icons/linkedin_icon.svg">
+            </a>
+         </footer>
+      </div>
+   </section>
+  
+   
+   <section class="section-experiencias" id="section-experiencia">
+      <div>
+         <h2>Formação</h2>
+         <div class="container-card-experiencia">
+            <div class="envoltoria-card-habilidades" style="margin-bottom: 20px;">
+               <img src="img/ufpe.jpg" style="height: 100%; width: 100px;margin-right: 10px;">
+               <div class="card-experiencia-2-titulo" style="flex-direction: column;align-items: flex-start;">
+                  <div>UFPE</div>
+                  <div>Universidade Federal de Pernambuco</div>
+               </div>
+            </div>
+            <div class="envoltoria-card-habilidades" style="margin-bottom: 20px;">
+               <img src="img/erempa.jpg" style="height: 100%; width: 100px;margin-right: 10px;">
+               <div class="card-experiencia-2-titulo" style="flex-direction: column;align-items: flex-start;">
+                  <div>EREMPA</div>
+                  <div>Referência em Ensino Médio em Panelas</div>
+               </div>
+            </div>
+            <div class="envoltoria-card-habilidades" style="margin-bottom: 20px;">
+               <img src="img/alpha.jpg" style="height: 100%; width: 100px;margin-right: 10px;">
+               <div class="card-experiencia-2-titulo" style="flex-direction: column;align-items: flex-start;">
+                  <div>ALPHA EDITECH</div>
+                  <div>A Alpha EdTech é uma ONG para formação de desenvolvedores</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div>
+         <h2>Experiências</h2>
+         <div class="container-card-experiencia">
+            <div class="envoltoria-card-habilidades" style="margin-bottom: 20px;">
+               <img src="img/bezerra_emgenharia.jpg" style="height: 100%; width: 100px;margin-right: 10px;">
+               <div class="card-experiencia-2-titulo" style="flex-direction: column;align-items: flex-start;">
+                  <div>BEZERRA ENGENHARIA</div>
+                  <div>Estágio supervisionado</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="section-habilidades" id="section-habilidades">
+      <h2>Habilidades</h2>
+      <div class="container-card-experiencia" style="display: flex;flex-wrap: wrap;">
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+              <img src="img/autocad.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Autocad
+               </div>
+            </div>
+            
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/revit.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Revit
+               </div>
+            </div>
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/matlab.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Matlab
+               </div>
+            </div>
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/word.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Word
+               </div>
+            </div>
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/excel.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Excel
+               </div>
+            </div>
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/points.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  PowerPoint
+               </div>
+            </div>
+         </div>
+         <div class="card-experiencia-2 card-habilidades">
+            <div class="envoltoria-card-habilidades">
+               <img src="img/ftool.jpg" style="height: 100%; width: 100px;">
+               <div class="card-experiencia-2-titulo">
+                  Ftool
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="section-portfolio flex-colum-align-center" id="section-portfolio">
+      <h2>Portfólio</h2>
+      <div class="portfolio-container">
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_5/questao_1" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_5_questao_1.png);">
+                  
+            </div>
+         </a>
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_6/questao_1" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_6_questao_1.png);">
+                  
+            </div>
+         </a>
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_6/questao_2" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_6_questao_2.png);">
+                  
+            </div>
+         </a>
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_7/questao_2" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_7_questao_2.png);">
+                  
+            </div>
+         </a>
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_8/questao_1" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_8_questao_1.png);">
+                  
+            </div>
+         </a>
+         <a 
+            href="https://github.com/AndersonFerreiraAlves007/HelloWorldHTML/tree/main/CSS/atividade_9/questao_1" 
+            target="_blank"
+            class="container-card-portfolio"
+         >
+            <div class="portifolio-item-1" style="background-image: url(img/atividade_9_questao_1.png);">
+                  
+            </div>
+         </a>
+      </div>
+   </section>
+   <section class="section-contato flex-colum-align-center" id="section-contato">
+      <h2>Contato</h2>
+      <form class="form-contato" action="" method="post">
+         <div class="container-input">
+            <input class="input" type="text" placeholder="Nome">
+            <input class="input" type="text" placeholder="Email">
+         </div>
+         <div class="container-input">
+            <input class="input" type="text" placeholder="Telefone">
+         </div>
+         <div class="container-input"  style="flex: 5;">
+            <textarea class="input" placeholder="Digite sua mensagem..."></textarea>
+         </div>
+         <div class="container-form-submit"  style="flex: 1;">
+            <button >Enviar</textarea>
+         </div>
+      </form>
+   </section>
+   <footer class="footer-pagina">
+      © 2021 por Anderson Ferreira Alves.
+   </footer>
+</body>
+</html>
