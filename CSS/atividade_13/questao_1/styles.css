@@ -1,0 +1,281 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a:hover {
+   color: black;
+}
+
+:root {
+   --branco: #ffffff;
+   --marrom: #362e26;
+   --rosa: #e78585;
+   --blue: #70babe;
+   --back: #000000;  
+}
+
+header {
+   background-color: var(--marrom);
+   font-size: 17px;
+   color: var(--branco);
+}
+
+header nav ul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 54px;
+}
+
+header nav ul li{
+   margin: 0 30px
+}
+
+.section-home {
+   height: 100vh;
+   background-image: url(assets/1.webp);
+   background-attachment: fixed;
+   /* filter: blur(1px); */
+   color: var(--branco);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.section-home div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100%;
+   background-color: #00000040;
+}
+
+.section-home div h2{
+   margin-top: 90px;
+   font-size: 100px;
+}
+
+.section-home div h3{
+   font-size: 30px;
+}
+
+.section-home div img{
+   width: 120px;
+   filter: invert(1);
+}
+
+.section-sobre {
+   background-color: var(--rosa);   
+   background-repeat: repeat;
+   background-size: cover;
+   color: var(--branco);
+  
+}
+
+.section-sobre > div{
+   background-image: url(assets/9.webp);
+   background-attachment: fixed;
+   display: flex;
+   padding: 70px;
+   /* max-width: 980px; */
+}
+
+.section-sobre > div > div{
+  flex: 1;
+}
+
+.section-sobre > div > div:nth-child(1){
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.section-sobre > div > div h2{
+   font-size: 25px;
+   max-width: 50%;
+   text-align: center;
+}
+
+.section-sobre > div > div p{
+   font-size: 18px;
+}
+
+.section-sobre > div > div p:nth-child(1){
+   margin-bottom: 20px;
+}
+
+.section-nossos-sabores {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 100px 0;
+}
+
+.section-nossos-sabores h2{
+   font-size: 30px;
+   color: var(--marrom);
+   margin-bottom: 10px;
+}
+
+.section-nossos-sabores > img{
+   width: 120px;
+   margin-bottom: 40px;
+}
+
+.section-nossos-sabores p{
+   text-align: center;
+   max-width: 780px;
+   margin-bottom: 40px;
+}
+
+.section-quem-faz {
+   display: flex;
+   height: 100vh;
+   background-color: var(--blue);
+   align-items: center;
+   justify-content: center;
+   color: var(--branco);
+}
+
+.section-quem-faz > div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex: 1;
+}
+
+.section-quem-faz > div:nth-child(1) {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   flex: 1;
+   justify-content: center;
+
+}
+
+.section-quem-faz > div:nth-child(1) div{
+   display: flex;
+   flex-direction: column;
+   
+   flex: 1;
+   justify-content: center;
+   max-width: 50%;
+}
+
+.section-quem-faz h2 {
+   margin-bottom: 30px;
+}
+
+.section-quem-faz p {
+   margin-bottom: 20px;
+}
+
+.section-galeria {
+   display: flex;
+   height: 80vh;
+}
+
+.section-galeria img{
+   width: 25%;
+}
+
+.section-galeria img:nth-child(2){
+   width: 50%;
+} 
+
+.section-contato {
+   background-color: var(--marrom);
+   display: flex;
+   color: white;
+   justify-content: center;
+   /* align-items: center; */
+   padding: 100px 0 20px;
+}
+
+.section-contato > div{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+.section-contato div:nth-child(1){
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+.section-contato div:nth-child(1) h2{
+   max-width: 70%;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+::placeholder {
+   color: white;
+   border: none;
+}
+
+input, textarea {
+   background-color: #514539;
+   border: none;
+   padding: 10px;
+   margin-bottom: 10px;
+   width: 500px;
+}
+
+.container-btn {
+   display: flex;
+   justify-content: flex-end;
+}
+
+button {
+   background-color: #514539;
+   border: none;
+   padding: 10px;
+   color: white;
+   width: 100px;
+}
+
+.endereco span{
+   display: block;
+   text-align: center;
+   margin-bottom: 3px;
+}
+
+.redes-sociais {
+   display: flex;
+   margin-top: 20px;
+}
+
+.redes-sociais img {
+   display: flex;
+   margin: 0px 5px;
+}
+
+footer {
+   height: 110px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--marrom);
+   color: white;
+   border-top: 1px solid white
+}

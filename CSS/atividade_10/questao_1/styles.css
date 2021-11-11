@@ -118,6 +118,7 @@ nav ul li a {
    border-radius:35px 0px 0px 0px;
    background-image: url(img/perfil.jpg);
    background-size: cover;
+   background-position: 0px -100px;
 }
 
 .card-skills {
@@ -161,7 +162,7 @@ h2 {
 }
 
 .portifolio-item-1 {
-   background-size: cover;
+   background-size: 100% 100%;
    height: 100%;
    border-radius: 10px;
    box-shadow: 7px 7px 15px 3px rgba(0, 0, 0, 0.77);
