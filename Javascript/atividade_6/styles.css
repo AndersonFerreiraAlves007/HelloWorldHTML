@@ -1,0 +1,74 @@
+
+#label-info-pessoais {
+  text-align: center;
+}
+
+#nome {
+  text-align: center;
+}
+
+#idade {
+  text-align: center;
+}
+
+#estado {
+  text-align: center;
+}
+
+#foto {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#label-hobby {
+  text-align: center;
+}
+
+#titulo-hobby {
+  text-align: center;
+}
+
+#descricao-hobby {
+  text-align: center;
+}
+
+#label-links-hobby {
+  text-align: center;
+}
+
+#link1-hobby {
+  text-decoration: none;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+#link2-hobby {
+  text-decoration: none;
+  color: red;
+  display: block;
+  text-align: center;
+}
+
+#label-imagens-hobby {
+  text-align: center;
+}
+
+#img1-hobby {
+  display: block;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#img2-hobby {
+  display: block;
+  width: 600px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
