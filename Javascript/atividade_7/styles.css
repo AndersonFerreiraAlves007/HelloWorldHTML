@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+header {
+  height: 50px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+header nav ul li{
+  font-size: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+header a {
+  color: white;
+}
+
+#sobre-mim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px  ;
+}
+
+.container-sobre-mim {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: blue 10px 10px;
+  margin-top: 10px;
+}
+
+.foto {
+  background-image: url(assets//img/perfil.jpeg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1.3;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.info-sofre-mim {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.linha-sobre-mim {
+  margin: 10px 0px;
+}
+
+.linha-sobre-mim :nth-child(1){
+  font-weight: bold;
+}
+
+#section-banda-favorita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#section-banda-favorita h2{
+  margin-bottom: 20px;
+}
+
+#sobre-queen {
+  width: 70%;
+}
+
+#sobre-queen p{
+  text-align: center;
+}
+
+#section-musicas-preferidas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#section-musicas-preferidas li {
+  margin: 5px 0px;
+}
+
+#section-discografia {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#lista-discografia {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#lista-discografia h2 {
+ 
+}
+
+#lista-discografia > :nth-child(1) {
+  background-image: url(assets//img/album_1.jpg);
+  height: 150px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#lista-discografia > :nth-child(2) {
+  background-image: url(assets//img/album_2.jpg);
+  height: 150px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#lista-discografia > :nth-child(3) {
+  background-image: url(assets//img/album_3.jpg);
+  height: 150px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+#lista-discografia > :nth-child(4) {
+  background-image: url(assets//img/album_4.jpg);
+  height: 150px;
+  width: 120px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 10px;
+}
