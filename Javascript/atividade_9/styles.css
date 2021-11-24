@@ -1,0 +1,116 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: darkgreen;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section-plano-de-fundo {
+  height: 100vh;
+  background-image: url(assets/img/restaurant-interior.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 2% 20%;
+  z-index: -1000;
+}
+
+#section-formulario {
+  padding: 2% 10%;
+}
+
+#container-formulario {
+  background-color: #ffffff95;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.7) ;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+#container-imagens {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+form legend {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px 10px;
+}
+
+form button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+form button:hover {
+  opacity: 1;
+  font-size: 25px;
+}
+
+#container-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: crimson;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container-questao {
+  display: flex;
+  justify-content: space-between;
+}
